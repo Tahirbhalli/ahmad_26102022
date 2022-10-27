@@ -11,7 +11,7 @@
 - React
 - VSCode
 
-## prerequisite
+## Prerequisite
 - ffmpeg ( brew install ffmpeg )
 - Ruby 3
 
