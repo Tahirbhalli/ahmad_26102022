@@ -18,6 +18,7 @@
 ## How to Run
 - Bundle install
 - rails db:migrate
+- yarn
 - rails s
 - http://localhost:3000/
 
