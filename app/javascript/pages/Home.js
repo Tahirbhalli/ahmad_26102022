@@ -38,8 +38,8 @@ function Home() {
                           </div>
                         </div>
                       </div>
-                      <li className="list-group-item d-flex justify-content-between align-items-center" data-toggle="modal" data-target={`#myModal${key}`} key={key}>
-                        <img className="mr-3 mt-3 rounded-circle" src={video.thumbUrl} width="64" height="64" title={video.title} style={{cursor: 'pointer'}}/>
+                      <li className="list-group-item d-flex justify-content-between align-items-center" data-toggle="modal" data-target={`#myModal${key}`} key={key} style={{cursor: 'pointer'}}>
+                        <img className="mr-3 mt-3 rounded-circle" src={video.thumbUrl} width="64" height="64" title={video.title}/>
                         <span className="badge-pill">{video?.title}</span>
                         <span className="badge-pill">{video?.category}</span>
                       </li>
