@@ -16,6 +16,7 @@
 - Ruby 3
 
 ## How to Run
+- brew install ffmpeg
 - Bundle install
 - rails db:migrate
 - yarn
